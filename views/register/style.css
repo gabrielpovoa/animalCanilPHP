@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+/* HOME STYLE */
+
+section {
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #f2f2f2;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+section h1 {
+    margin-bottom: 5rem;
+}
+
+form {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form label {
+    display: flex;
+    gap: .8rem;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+form .box {
+    padding: .2rem 1.3rem;
+    border-radius: .4rem;
+    text-transform: none;
+    font-weight: bold;
+}
+
+form .form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+form .form-control a {
+    padding: .6rem;
+    cursor: pointer;
+    border-radius: .4rem;
+    color: #FFF;
+}
+
+form .form-control .send {
+    background-color: orange;
+    padding: .6rem;
+    cursor: pointer;
+    border-radius: .4rem;
+    color: #FFF;
+}
+
+form .form-control .see {
+    background-color: #7159c1;
+}
